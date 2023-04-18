@@ -15,7 +15,7 @@ import java.util.Scanner;
 // class TD1 {
 //     public static void main(String[] args) {
 //         Scanner scanner = new Scanner(System.in);
-//         System.out.println("Quel est vote nom?");
+//         System.out.print("Quel est vote nom?");
 //         String name = scanner.nextLine();
 
 //         System.out.println("Bienvenue dans la programme main " + name + "!");
@@ -29,9 +29,9 @@ import java.util.Scanner;
 // class TD1 {
 //     public static void main (String[] args){
 //         Scanner scanner = new Scanner(System.in);
-//         System.out.println("Donner votre premier nombre: ");
+//         System.out.print("Donner votre premier nombre: ");
 //         String num1 = scanner.nextLine();
-//         System.out.println("Donner votre deuxieme nombre: ");
+//         System.out.print("Donner votre deuxieme nombre: ");
 //         String num2 = scanner.nextLine();
 
 //         // (a + b + |a - b|) / 2
@@ -46,7 +46,7 @@ import java.util.Scanner;
 // class TD1 {
 //     public static void main (String[] args){
 //         Scanner scanner = new Scanner(System.in);
-//         System.out.println("Donner un nombre : ");
+//         System.out.print("Donner un nombre : ");
 //         String num1 = scanner.nextLine();
 
 //         if (Integer.parseInt(num1) % 2 == 0){
@@ -64,9 +64,9 @@ import java.util.Scanner;
 // class TD1 {
 //     public static void main (String[] args){
 //         Scanner scanner = new Scanner(System.in);
-//         System.out.println("Donner votre premier nombre: ");
+//         System.out.print("Donner votre premier nombre: ");
 //         int num1 = scanner.nextInt();
-//         System.out.println("Donner votre deuxieme nombre: ");
+//         System.out.print("Donner votre deuxieme nombre: ");
 //         int num2 = scanner.nextInt();
 
 //         int temp = num1;
@@ -81,6 +81,55 @@ import java.util.Scanner;
 
 // Exercice 6
 
+// class TD1 {
+//     public static void main (String[] args){
+//         Scanner scanner = new Scanner(System.in);
+//         System.out.print("Donner un nombre: ");
+//         int n = scanner.nextInt();
+//         int result = 0;
+
+//         for (int i = 1; i <= 5; i++){
+//             result = n * i;
+//         }
+//         System.out.println("Votre nombre après 5 incréments est : " + result);
+//         scanner.close();
+//     }
+// }
+
+// Exercice 7
+
+// class TD1 {
+//     public static void main(String[] args) {
+//         Scanner scanner = new Scanner(System.in);
+//         System.out.print("Entrez un entier positif : ");
+//         int n = scanner.nextInt();
+//         int i = 1;
+//         int resultat = 1;
+        
+//         while (i <= n) {
+//             resultat *= i;
+//             i++;
+//         }
+
+//         System.out.println("La factorielle de " + n + " est " + resultat);
+//         scanner.close();
+//     }
+// }
+
+// Exercice 8
+
+// class TD1 {
+//     public static void main(String[] args) {
+//         Scanner scanner = new Scanner(System.in);
+//         System.out.print("Entrez une durée en minutes : ");
+//         int n = scanner.nextInt();
+//         int heures = n / 60;
+//         int minutes = n % 60;
+
+//         System.out.println("La durée est de " + heures + " heures et " + minutes + " minutes");
+//         scanner.close();
+//     }
+// }
 
 
 
