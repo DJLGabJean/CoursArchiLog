@@ -15,7 +15,7 @@ import java.util.Scanner;
 // class TD1 {
 //     public static void main(String[] args) {
 //         Scanner scanner = new Scanner(System.in);
-//         System.out.print("Quel est vote nom?");
+//         System.out.print("Quel est vote nom? ");
 //         String name = scanner.nextLine();
 
 //         System.out.println("Bienvenue dans la programme main " + name + "!");
@@ -46,7 +46,7 @@ import java.util.Scanner;
 // class TD1 {
 //     public static void main (String[] args){
 //         Scanner scanner = new Scanner(System.in);
-//         System.out.print("Donner un nombre : ");
+//         System.out.print("Donner un nombre: ");
 //         String num1 = scanner.nextLine();
 
 //         if (Integer.parseInt(num1) % 2 == 0){
@@ -101,7 +101,7 @@ import java.util.Scanner;
 // class TD1 {
 //     public static void main(String[] args) {
 //         Scanner scanner = new Scanner(System.in);
-//         System.out.print("Entrez un entier positif : ");
+//         System.out.print("Entrez un entier positif: ");
 //         int n = scanner.nextInt();
 //         int i = 1;
 //         int resultat = 1;
